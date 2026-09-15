@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght,ELSH@100..900,2&display=swap" rel="stylesheet">
+    <title>Die Geschichte der Computer</title>
+</head>
+<script defer src="js/script.js"></script>
+<body>
+
+    <header>
+        <nav class="timeline-nav timeline-nav--sticky">
+            <div class="timeline-wrapper">
+              <div class="timeline-label left">3000 v. Chr.</div>
+              <div id="timeline" class="timeline"></div>
+              <div class="timeline-label right">2030</div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page" id="scroll-container">
+        <div class="content">
+            <section class="intro">
+                <h1 data-text="Die Geschichte der Computer">Die Geschichte der Computer</h1>
+                    <p>Ein Computer - oder schlicht Rechner - ist ein Gerät, das mit Hilfe programmierbarer Anweisungen Daten verarbeitet. Seine Geschichte ist eine faszinierende Reise von mechanischen Zahnrädern bis hin zu Quantenbits.</p>
+            </section>
+            <section class="content" data-milestone="0">
+                <h2>Erste Schritte</h2>
+                    <h3>Vom Abakus zum mechanischen Denker</h3>
+                        <p>Bevor es Silizium gab, rechnete der Mensch mit einfachsten Hilfsmitteln. Der <span class="tech">Abakus</span> gilt als das erste Werkzeug zur strukturierten Berechnung.
+                    <h3>Mechanische Computer</h3>
+                        <p>Im 19. Jahrhundert erdachte <span class="human">Charles Babbage</span> Maschinen, die menschliche Rechenarbeit automatisieren sollten – die <span class="tech">Difference Engine</span> und später die <span class="blue">Analytical Engine</span>. Seine Mitarbeiterin <span class="human">Ada Lovelace</span> schrieb das erste Computerprogramm der Welt – Jahrzehnte, bevor der erste Computer tatsächlich gebaut wurde.</p>
+                    <div class="pioneers-grid">
+                        <figure class="pioneer-card">
+                            <img src="images/charles-babbage.jpg" alt="Charles Babbage">
+                                <figcaption>
+                                    <span class="name">Charles Babbage</span>
+                                    <span class="role">Analytical Engine</span>
+                                </figcaption>
+                        </figure>
+                        <figure class="pioneer-card">
+                            <img src="images/ada-lovelace.jpg" alt="Ada Lovelace">
+                                <figcaption>
+                                    <span class="name">Ada Lovelace</span>
+                                    <span class="role">First Programmer</span>
+                                </figcaption>
+                        </figure>
+                    </div>
+                    <h3>Vom Handrechner zur Miniatur</h3>
+                        <p>Mechanische Rechner wie das <span class="tech">Comptometer</span> oder die winzige, raffinierte <span class="tech">Curta</span> machten komplexe Berechnungen erstmals handlich</p>
+                <div class="funfact" data-number="01">
+                        <p>Der Begriff „Computer“ wurde ursprünglich für Menschen verwendet, die komplexe Berechnungen durchführten – oft Frauen, die in Teams arbeiteten, um astronomische Daten oder Ballistik-Tabellen zu erstellen.<span class="funfact-cursor"></span></p>
+                </div>
+            </section>
+            <section class="content" data-milestone="1">
+                <h2>Große Fortschitte</h2>
+                    <h3>Programmierbaren Maschinen</h3>
+                        <p>Mit der <span class="tech">Zuse Z1</span> von <span class="human">Konrad Zuse</span> begann die Ära der modernen Rechentechnik. Sie war der erste frei programmierbare mechanische Rechner, der bereits mit binären Zahlen arbeitete.</p>
+                    <h3>Entschlüsselung der Enigma-Maschine</h3>
+                        <p>Während des Zweiten Weltkriegs entwickelte <span class="human">Alan Turing</span> die <span class="tech">Turing-Bombe</span>, um die verschlüsselten Nachrichten der <span class="tech">Enigma-Maschine</span> zu entschlüsseln – ein Meilenstein für Informatik und Logik.</p>
+                    <div class="pioneers-grid">
+                        <figure class="pioneer-card">
+                            <img src="images/konrad-zuse.jpg" alt="Konrad Zuse">
+                                <figcaption>
+                                    <span class="name">Konrad Zuse</span>
+                                    <span class="role">Z1, Z3</span>
+                                </figcaption>
+                        </figure>
+                        <figure class="pioneer-card">
+                            <img src="images/alan-turing.jpg" alt="Alan Turing">
+                                <figcaption>
+                                    <span class="name">Alan Turing</span>
+                                    <span class="role">Turing-Bombe, Turing-Test</span>
+                                </figcaption>
+                        </figure>
+                    </div>
+                    <h3>Relais und Elektroröhren</h3>
+                        <p>Die <span class="tech">Zuse Z3</span> setzte mit elektromechanischen Relais neue Maßstäbe, gefolgt vom <span class="tech">ENIAC</span>, dem ersten voll elektronischen, digitalen Universalrechner.</p>
+                    <div class="funfact" data-number="02">
+                        <p>Der Begriff Bug stammt aus dieser Zeit: In frühen Röhrenrechnern verursachten echte Insekten Kurzschlüsse!<span class="funfact-cursor"></span></p>
+                    </div>
+            </section>
+                        <section class="chapter3" data-milestone="2">
+                                <h2>Computer für alle</h2>
+                                        <div class="chapter3-stage" data-stage>
+                                            <div class="pc-scene" id="pc-scene">
+                                                <div class="layer c64-layer active" data-index="0">
+                                                    <div class="c64">
+                                                        <img class="c64__img" src="images/C64.png" alt="Commodore 64">
+                                                        <div class="c64__screen screen" data-fit>
+                                                            <h3>* PC-Revolution *</h3>
+                                                            <p>Mit den ersten 8-Bit-Heimcomputern wie dem Apple II, dem Commodore PET oder dem sagenhaften Commodore 64 begann das digitale Zeitalter in den Wohnzimmern.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="layer ibm-layer" data-index="1">
+                                                    <div class="ibm">
+                                                        <img class="ibm__img" src="images/IBM-PC.png" alt="IBM-PC">
+                                                        <div class="ibm__screen screen" data-fit>
+                                                            <h3>Der PC-Standard</h3>
+                                                            <p>Microsoft und IBM entwickelten den IBM-PC, der die Grundlage für heutige Windows-Systeme und die x86-Architektur legte.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="layer apple-layer" data-index="2">
+                                                    <div class="apple">
+                                                        <img class="apple__img" src="images/Apple-Macintosh.png" alt="Apple Macintosh">
+                                                        <div class="apple__screen screen" data-fit>
+                                                            <h3>Apple setzt neue Maßstäbe</h3>
+                                                            <p>Der Apple Macintosh brachte 1984 erstmals eine grafische Benutzeroberfläche in den Massenmarkt.</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="funfact" data-number="03">
+                                            <p>Der Name „Macintosh“ stammt von der Apfelsorte McIntosh – leicht modernisiert, um rechtliche Probleme zu vermeiden.<span class="funfact-cursor"></span></p>
+                                        </div>
+                        </section>
+                
+            </section>
+            <section class="content" data-milestone="3">
+                <h2>Willkommen im Netzzeitalter</h2>
+                <div class="audio-player">
+                    <audio id="audioElement" preload="metadata">
+                        <source src="audio/dial-up.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                    
+                    <div class="audio-controls">
+                        <button id="playPauseBtn" class="control-btn" aria-label="Play">
+                        <span class="play-icon"><i class="fas fa-play"></i></span>
+                        <span class="pause-icon" style="display: none;"><i class="fas fa-pause"></i></span>
+                        </button>
+                        
+                        <div class="progress-container">
+                        <div class="progress-bar">
+                            <div class="progress-fill"></div>
+                        </div>
+                        <div class="time-display">
+                            <span id="currentTime">0:00</span>
+                            <span id="duration">0:00</span>
+                        </div>
+                        </div>
+                        
+                        <div class="volume-control">
+                        <button id="muteBtn" class="control-btn" aria-label="Mute">
+                            <span class="volume-icon"><i class="fas fa-volume-up"></i></span>
+                            <span class="mute-icon" style="display: none;"><i class="fas fa-volume-mute"></i></span>
+                        </button>
+                        <input type="range" id="volumeSlider" min="0" max="100" value="70" class="volume-slider">
+                        </div>
+                    </div>
+                </div>
+                    <h3>Das Internet-Zeitalter beginnt</h3>
+                        <p>In den 1990er-Jahren wurde das <span class="tech">World Wide Web</span> zur größten technischen Umwälzung seit der Erfindung des Computers. Zum ersten Mal verbanden sich Millionen Menschen über E-Mails, Newsgroups und die ersten Webseiten miteinander. Informationen ließen sich plötzlich in Sekunden über Kontinente hinweg teilen.</p>
+                    <h3>Von der Kommandozeile zur grafischen Oberfläche</h3>
+                    <section class="software-section">
+                        <div class="cli-to-gui">
+                            <div class="cli-screen active">
+                                <div class="cli-text">
+                                    C:\> dir<br>
+                                    Volume in drive C is MS-DOS<br>
+                                    Directory of C:\<br><br>
+                                    WINDOWS    &lt;DIR&gt;        12-11-95<br>
+                                    PROGRAM    &lt;DIR&gt;        12-11-95<br>
+                                    AUTOEXEC   BAT          256  12-11-95<br>
+                                    CONFIG     SYS          128  12-11-95<br><br>
+                                    C:\> win<br>
+                                    <span class="cli-cursor">_</span>
+                                </div>
+                            </div>
+                            <div class="gui-screen">
+                                <div class="window">
+                                    <div class="title-bar">
+                                        <span>📁 My Computer</span>
+                                        <div class="window-controls">
+                                            <button>_</button>
+                                            <button>□</button>
+                                            <button>✕</button>
+                                        </div>
+                                    </div>
+                                    <div class="window-content">
+                                        <div class="gui-icon">
+                                            <img src="images/floppy.png" alt="Floppy Drive" class="icon-img">
+                                            <div class="label">Floppy (A:)</div>
+                                        </div>
+                                        <div class="gui-icon">
+                                            <img src="images/mypc.png" alt="Your PC" class="icon-img">
+                                            <div class="label">Your PC (C:)</div>
+                                        </div>
+                                        <div class="gui-icon">
+                                            <img src="images/cd.png" alt="CD-ROM" class="icon-img">
+                                            <div class="label">CD-ROM (D:)</div>
+                                        </div>
+                                        <div class="gui-icon">
+                                            <img src="images/bin.png" alt="Recycle Bin" class="icon-img">
+                                            <div class="label">Recycle Bin</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="word-screen">
+                                <div class="word-window">
+                                    <div class="title-bar">
+                                        <span>📄 Microsoft Word - Software.doc</span>
+                                        <div class="window-controls">
+                                            <button>_</button>
+                                            <button>□</button>
+                                            <button>✕</button>
+                                        </div>
+                                    </div>
+                                    <div class="menu-bar">
+                                        <span>Datei</span>
+                                        <span>Bearbeiten</span>
+                                        <span>Ansicht</span>
+                                        <span>Einfügen</span>
+                                        <span>Format</span>
+                                    </div>
+                                    <div class="toolbar">
+                                        <button>📁</button>
+                                        <button>💾</button>
+                                        <button>🖨️</button>
+                                        <button>✂️</button>
+                                        <button>📋</button>
+                                        <button>📑</button>
+                                    </div>
+                                    <div class="document-content">
+                                        <h3>Software erobert den Alltag</h3>
+                                        <p>Mit der Einführung von Windows 95 und Microsoft Office wurde der PC zum Standardarbeitsplatz in Büros und Haushalten. Grafische Benutzeroberflächen ersetzten Kommandozeilen und Icons machten Computer intuitiv bedienbar.</p>
+                                        <span class="typing-cursor">|</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="transform-btn" data-stage="cli">Grafische Oberfläche aktivieren →</button>
+                        </div>
+                    </section>
+
+
+
+                        <p>Mit der Einführung von Windows 95 und Microsoft Office wurde der PC zum Standardarbeitsplatz in Büros und Haushalten. Grafische Benutzeroberflächen ersetzten Kommandozeilen und Icons machten Computer intuitiv bedienbar.</p>
+                    <h3>Multimedia wird alltäglich</h3>
+                        <p>CD-ROMs, frühe Soundkarten und die ersten digitalen Kameras brachten Bilder, Ton und Video auf den Bildschirm. Programme wie der „Encarta“-Atlas oder Medienplayer öffneten völlig neue Formen der digitalen Bildung und Unterhaltung.</p>
+                     <h3>Spiele werden Welten</h3>
+                        <p>Action-Klassiker wie Doom, Quake und Tomb Raider oder strategischere Spiele wie SimCity 2000 prägten die Gaming-Kultur und legten den Grundstein für 3D-Grafikrevolutionen.</p>
+            </section>
+            <section class="magazine-section" data-milestone="5">
+                <div class="content">
+                    <h2>Das Digital-Magazin</h2>
+                    <p>Ein kleiner Einblick in die <span class="tech">PC-Spiele-Szene</span> aus den frühen 1990er Jahren.
+                    </p>
+                    <span class="scroll-to-flip">↓ Scrollen um Durchzublättern</span>
+                </div>
+                
+                <div class="magazine-stage" data-magazine-stage>
+                    <div class="magazine-book" id="magazine-book">
+
+                        <!-- Cover (front + back) -->
+                        <div class="sheet cover" data-sheet="cover">
+                          <div class="front"><img src="images/powerplay_1989.jpg" alt="Cover" class="page-image"></div>
+                          <div class="back"><img src="images/doom_cover.jpg" alt="Cover Back" class="page-image"></div>
+                        </div>
+
+                        <!-- Sheet 1: front shows page1, back shows page2 -->
+                        <div class="sheet" data-sheet="1">
+                          <div class="front"><img src="images/doom.jpg" class="page-image"></div>
+                          <div class="back"><img src="images/quake.jpg" class="page-image"></div>
+                        </div>
+
+                        <!-- Sheet 2 -->
+                        <div class="sheet" data-sheet="2">
+                          <div class="front"><img src="images/quake_2.jpg" class="page-image"></div>
+                          <div class="back"><img src="images/tombraider.jpg" class="page-image"></div>
+                        </div>
+
+                        <!-- Sheet 3 -->
+                        <div class="sheet" data-sheet="3">
+                          <div class="front"><img src="images/tombraider_5.jpg" class="page-image"></div>
+                          <div class="back"><img src="images/simcity2000.jpg" class="page-image"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+            <section class="content" data-milestone="4">
+                <h2>Heute und morgen</h2>
+                    <h3>Mehr Leistung, mehr Vernetzung</h3>
+                        <p>Mit der Verbreitung von 64-Bit-Prozessoren standen erstmals über 4 GB Arbeitsspeicher zur Verfügung, was komplexe Anwendungen wie Video-Editing, Simulationen oder Spiele möglich machte.</p>
+                    <h3>Moderne Grenzen</h3>
+                        <p>Seit den 1980er-Jahren sind die Taktfrequenzen von wenigen MHz auf rund 5 GHz bei modernen Prozessoren gestiegen. Heute liegt der Fokus jedoch weniger auf reiner Geschwindigkeit – Mehrkern-Architekturen, Energieeffizienz und integrierte KI-Beschleuniger bestimmen die Leistungsfähigkeit moderner Chips.</p>
+                     <h3>Künstliche Intelligenz</h3>
+                        <p>Seit den 2010er Jahren erlebt die KI-Forschung einen rasanten Aufstieg. Systeme wie neuronale Netze ermöglichen Sprachassistenten, Bildgenerierung oder autonome Fahrzeuge.</p>   
+                    <h3>Quantum Computing</h3>
+                        <p>In der Forschung entstehen Computer, die mit Qubits statt Bits arbeiten. Sie versprechen in Zukunft eine Rechenleistung, die klassische Computer bei bestimmten Aufgaben weit übertreffen könnte – etwa bei Kryptografie oder Materialsimulation.</p>                                                           
+                <div class="funfact" data-number="04">
+                    <p>Moderne Quantencomputer müssen auf Temperaturen nahe dem absoluten Nullpunkt (-273,15°C) gekühlt werden – das ist kälter als im Weltraum!<span class="funfact-cursor"></span></p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+       <!-- Hier steht der Footer (Impressum, Copyright, etc.)--> 
+    </footer>
+    <button class="back-to-top" aria-label="Back to top">
+        ↑
+    </button>
+</body>
+</html>
